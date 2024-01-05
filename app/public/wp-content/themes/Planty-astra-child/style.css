@@ -8,5 +8,53 @@ Description: Astra is fast, fully customizable &amp; beautiful WordPress theme s
 Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
 Version: 1.1702573352
 Updated: 2023-12-14 18:02:32
-
 */
+
+.titre-mentions-legales {
+      font-size: 40px;
+      color: black;
+      text-align: center;
+}
+
+.container-ml {
+      color: white;
+      background-color: #3B8E46;
+      display: block;
+      flex-direction: row;
+      justify-content: center;
+      margin: 30px;
+}
+
+
+.fluent_form_4 .container-des-quantites {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 157px;
+}
+
+.fluent_form_4 .container-champ-quantite {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+}
+
+.fluent_form_4 .champ-quantite {
+      text-align: center;
+      width: 39px;
+      height: 56px;
+}
+
+
+.fluent_form_4 .container-info-livraison {
+      margin-bottom: 30px;
+      column-gap: 89px;
+}
+
+.fluent_form_4 .champ-formulaire {
+
+      margin-bottom: 20px;
+      width: 100%;
+      height: 71px;
+}
