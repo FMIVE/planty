@@ -23,4 +23,16 @@ if (!function_exists('child_theme_configurator_css')) :
 endif;
 add_action('wp_enqueue_scripts', 'child_theme_configurator_css', 10);
 
+if (is_user_logged_in()) :
+
+    function ajouter_lien_admin($items, $args)
+    {
+        if ($args->theme_location == 'primary') {
+            $items .= '<li id="menu-item-923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-923"><a href="http://localhost:10016/wp-admin" class="menu-link">Admin</a></li>';
+        }
+        return $items;
+    }
+    add_filter('wp_nav_menu_items', 'ajouter_lien_admin', 10, 2);
+endif; 
+
 // END ENQUEUE PARENT ACTION

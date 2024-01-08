@@ -23,6 +23,7 @@ Updated: 2023-12-14 18:02:32
       flex-direction: row;
       justify-content: center;
       margin: 30px;
+      padding: 10px;
 }
 
 
@@ -57,4 +58,58 @@ Updated: 2023-12-14 18:02:32
       margin-bottom: 20px;
       width: 100%;
       height: 71px;
+}
+
+/* menu */
+/* nous rencontrer */
+.menu-item-920 {
+      color: #000;
+      font-family: Syne;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+
+}
+
+/* lien admin */
+.menu-item-923 {
+      padding: 0 60px 0 60px;
+      color: black;
+      font-family: Syne;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+}
+
+/* commander */
+.menu-item-919 {
+      background-color: #DC9F96;
+      padding-right: 20px;
+      font-family: Syne;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+}
+
+.main-header-menu #menu-item-919 a {
+      color: white !important;
+}
+
+.main-header-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+}
+
+.main-header-menu li:nth-child(1) {
+      order: 1;
+}
+
+/* lien admin */
+.main-header-menu li:nth-child(2) {
+      order: 3;
+}
+
+.main-header-menu li:nth-child(3) {
+      order: 2;
 }
