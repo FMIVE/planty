@@ -254,3 +254,7 @@ Stack trace:
 #47 {main}
   thrown in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\themes\Planty-astra-child\functions.php on line 28
 [07-Jan-2024 22:49:36 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[08-Jan-2024 18:14:01 UTC] Erreur d’événement de replanification de tâche pour le crochet fluentform_do_scheduled_tasks. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"ff_every_five_minutes","args":[],"interval":300}
+[08-Jan-2024 19:51:06 UTC] PHP Warning:  Undefined variable $reply_to_address in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 215
+[08-Jan-2024 19:51:06 UTC] PHP Warning:  Undefined variable $email_from_name in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 219
+[08-Jan-2024 19:51:06 UTC] PHP Warning:  Undefined variable $email_from_mail in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 223
