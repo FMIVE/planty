@@ -258,3 +258,8 @@ Stack trace:
 [08-Jan-2024 19:51:06 UTC] PHP Warning:  Undefined variable $reply_to_address in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 215
 [08-Jan-2024 19:51:06 UTC] PHP Warning:  Undefined variable $email_from_name in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 219
 [08-Jan-2024 19:51:06 UTC] PHP Warning:  Undefined variable $email_from_mail in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 223
+[10-Jan-2024 11:20:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\33674\Local Sites\planty-fm\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Jan-2024 11:21:08 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\33674\Local Sites\planty-fm\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Jan-2024 17:29:59 UTC] PHP Warning:  Undefined variable $reply_to_address in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 215
+[10-Jan-2024 17:29:59 UTC] PHP Warning:  Undefined variable $email_from_name in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 219
+[10-Jan-2024 17:29:59 UTC] PHP Warning:  Undefined variable $email_from_mail in C:\Users\33674\Local Sites\planty-fm\app\public\wp-content\plugins\royal-elementor-addons\classes\modules\forms\wpr-send-email.php on line 223

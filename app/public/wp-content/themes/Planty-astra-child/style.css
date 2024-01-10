@@ -12,7 +12,6 @@ Updated: 2023-12-14 18:02:32
 
 .titre-mentions-legales {
       font-size: 40px;
-      color: black;
       text-align: center;
 }
 
@@ -23,7 +22,8 @@ Updated: 2023-12-14 18:02:32
       flex-direction: row;
       justify-content: center;
       margin: 30px;
-      padding: 10px;
+      padding: 40px 30px 30px 20px;
+
 }
 
 
@@ -73,7 +73,7 @@ Updated: 2023-12-14 18:02:32
 
 /* lien admin */
 .menu-item-923 {
-      padding: 0 60px 0 60px;
+
       color: black;
       font-family: Syne;
       font-size: 16px;
@@ -83,8 +83,10 @@ Updated: 2023-12-14 18:02:32
 
 /* commander */
 .menu-item-919 {
+      padding: 0 60px 0 60px;
+      margin-left: 50px;
       background-color: #DC9F96;
-      padding-right: 20px;
+
       font-family: Syne;
       font-size: 16px;
       font-style: normal;
@@ -112,4 +114,12 @@ Updated: 2023-12-14 18:02:32
 
 .main-header-menu li:nth-child(3) {
       order: 2;
+}
+
+.ast-container {
+      max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 37px;
+      padding-right: 0px;
 }
